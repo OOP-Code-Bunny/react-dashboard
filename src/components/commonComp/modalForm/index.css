@@ -1,0 +1,10 @@
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons button {
+  margin-left: 20px;
+}
+.formWrapper :global .ant-form-item label {
+  font-size: 14px;
+}

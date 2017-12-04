@@ -1,0 +1,15 @@
+/**
+ * PerformanceHorizonTbApi.js
+ * PerformanceHorizon 页面的tb的 api
+ */
+import networkTransactionsApi from './networkTransactionsApi'
+
+export default {
+    apiName:'PerformanceHorizonTbApi',
+
+    fetchTbDataApi(props){
+        return (dispatch) => {
+            dispatch(networkTransactionsApi.fetchNetworkTransactionTbApi(props));
+        }
+    }
+}
